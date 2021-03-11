@@ -1,6 +1,8 @@
 import numpy as np
 import xarray as xr
 
+# The Metadata file can be downloaded here:
+# https://hrrrzarr.s3.amazonaws.com/index.html#grid/
 metadata = 'PATH_TO_H5_FILE'
 x = xr.open_dataset(metadata)
 lat = x.latitude.data
