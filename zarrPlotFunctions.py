@@ -1,7 +1,7 @@
 import numpy as np
 import xarray as xr
 
-metadata = '/uufs/chpc.utah.edu/common/home/horel-group7/Pando/hrrr/HRRR_latlon.h5'
+metadata = 'PATH_TO_H5_FILE'
 x = xr.open_dataset(metadata)
 lat = x.latitude.data
 lon = x.longitude.data
