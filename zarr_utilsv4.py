@@ -82,8 +82,6 @@ def awsAnlIDX(day,filetype):
           we only get the surface data or for all pressure
           levels
     '''
-    KEY = 'AKIATQDTW4IE5ILHHKTS'
-    SECRET = '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'
     REGION = 'us-west-1'
 
     s3 = boto3.resource(
